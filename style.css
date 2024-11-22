@@ -5,4 +5,46 @@
   nav ul li { margin: 0 15px; } 
   nav ul li a { color: white; text-decoration: none; font-weight: bold; } 
   nav ul li a:hover { color: #ddd; } main { padding: 20px; text-align: center; } 
-  h1 { color: #333; }  
+  h1 { color: #333; }
+  
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 20px;
+  text-align: center;
+  background-color: aqua;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.boxx {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  background-color: rgb(169, 228, 7);
+}
+
+
